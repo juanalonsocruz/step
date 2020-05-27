@@ -21,7 +21,7 @@ function addRandomGreeting() {
 
   // Pick a random greeting.
   const greeting = greetings[Math.floor(Math.random() * greetings.length)];
-
+  // Random comment addition so there is a change somewhere else
   // Add it to the page.
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
